@@ -2,8 +2,6 @@
 
 namespace App\Providers;
 
-$table->string('email', 191)->unique();
-
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Dusk\DuskServiceProvider;
